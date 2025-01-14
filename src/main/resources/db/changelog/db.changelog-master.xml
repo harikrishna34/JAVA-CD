@@ -10,7 +10,7 @@
     </changeSet>
 
     <!-- ChangeSet to include table creation SQL file -->
-    <changeSet id="2" author="akash.chavhan">
+    <changeSet id="2" author="akash.deshmukh">
         <sqlFile path="db.changelog-data-1.0.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
