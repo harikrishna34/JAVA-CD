@@ -5,7 +5,7 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <!-- ChangeSet to include schema creation SQL file -->
-    <changeSet id="1" author="akash.chavhan">
+    <changeSet id="1" author="akash.deshmukh">
         <sqlFile path="db.changelog-1.0.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
