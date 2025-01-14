@@ -1,5 +1,5 @@
 -- liquibase formatted sql
--- changeset akash.chavhan:1
+-- changeset akash.deshmukh:1
 CREATE DATABASE IF NOT EXISTS petclinic;
 
 ALTER DATABASE petclinic
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS vets (
   INDEX(last_name)
 ) engine=InnoDB;
 
--- changeset akash.chavhan:2
+-- changeset akash.deshmukh:2
 
 CREATE TABLE IF NOT EXISTS specialties (
   id INT(4) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
