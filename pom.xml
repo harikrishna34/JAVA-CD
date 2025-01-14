@@ -61,9 +61,9 @@
                         </execution>
                     </executions>
                     <changeLogFile>src/main/resources/db/changelog/db.changelog-master.xml</changeLogFile>
-                    <url>jdbc:mysql://database1.cb4kk8iiuvdy.ap-south-1.rds.amazonaws.com:3306/AKASH</url>
+                    <url>jdbc:mysql://database-1.cpkym0yok3i5.ap-south-1.rds.amazonaws.com:3306/databse-1</url>
                     <username>admin</username>
-                    <password>Admin12345</password>    
+                    <password>password</password>    
                     <outputChangeLogFile>src/main/resources/db/changelog/migration/chnagelog-master.sql</outputChangeLogFile>
                     <diffChangeLogFile>src/main/resources/db/changelog/migration/_${diff.version}_migrate.sql</diffChangeLogFile>
                     <propertyFile>src/main/resources/db/changelog/templates/liquibase.properties</propertyFile>
